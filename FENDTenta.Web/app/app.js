@@ -13,7 +13,7 @@ app.config(function ($routeProvider) {
         templateUrl: "app/partials/UpdateGenre.html",
         controller: "UpdateGenreController"
     })
-    .otherwise('/');
+    .otherwise({ redirectTo: '/' });
 });
 
 app.controller("ListGenreController", ListGenreController)
