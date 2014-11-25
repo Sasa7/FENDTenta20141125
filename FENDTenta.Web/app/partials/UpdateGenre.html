@@ -1,0 +1,9 @@
+﻿<div>
+    <h2>Update Genre</h2>
+</div>
+<div>
+    <input type="hidden" data-ng-bind="Genre.GenreId" />
+    <label for="genreName">Name</label><br />
+    <input type="text" id="genreName" data-ng-model="Genre.Name" /><br />
+    <button data-ng-click="UpdateGenre(Genre)">Save</button>
+</div>

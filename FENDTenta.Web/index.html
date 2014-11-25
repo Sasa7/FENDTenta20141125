@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" data-ng-app="myApp">
+<head>
+    <title>Chinook Database Exampel</title>
+</head>
+<body>
+    <div>
+        <a href="#/AddGenre">Add Genre</a>
+        <a href="/">List</a>
+    </div>
+    <div data-ng-view>
+
+    </div>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/angular-route.min.js"></script>
+    <script src="app/controllers/ListGenreController.js"></script>
+    <script src="app/controllers/NewGenreController.js"></script>
+    <script src="app/controllers/UpdateGenreController.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>
